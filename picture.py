@@ -17,7 +17,7 @@ for item in jsonObj:
     image = requests.get(url).content
     with open(item['file']['key'] + '.jpg','wb') as file:
         file.write(image)
-
+# 爬取20个图片
 
 
 
